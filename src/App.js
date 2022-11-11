@@ -25,12 +25,12 @@ function App() {
 						<a
 							href=""
 							class="py-4 px-2 text-white font-semibold hover:text-pink-200 transition duration-300"
-							>Services</a
+							>About</a
 						>
 						<a
 							href=""
 							class="py-4 px-2 text-white font-semibold hover:ttext-pink-200 transition duration-300"
-							>About</a
+							>Blog</a
 						>
 						<a
 							href=""
@@ -57,10 +57,10 @@ function App() {
 <div class="hidden mobile-menu">
 	<ul class="display: none">
 
-		<li class="active"><a href="index.html" class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold">Home</a></li>
-		<li><a href="#services" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Services</a></li>
-		<li><a href="#about" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">About</a></li>
-		<li><a href="#contact" class="block text-sm px-2 py-4 hover:bg-green-500 transition duration-300">Contact </a></li>
+		<li class="active"><a href="index.html" class="block text-sm px-2 py-4 text-white bg-pink-600 font-semibold">Home</a></li>
+		<li><a href="#services" class="block text-sm px-2 text-white py-4 transition duration-300">About</li>
+		<li><a href="#about" class="block text-sm px-2 text-white py-4transition duration-300">Blog</a></li>
+		<li><a href="#contact" class="block text-sm px-2 text-white  py-4 transition duration-300">Contact </a></li>
 	</ul>
 </div>
 				</div>
