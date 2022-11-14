@@ -45,31 +45,7 @@ function App() {
 							>Contact</a
 						>
 					</div>
-          <div class="md:hidden ">
-	{/* <button class="outline-none mobile-menu-button">
-		<svg
-			class="w-6 h-6 text-white"
-			x-show="!showMenu"
-			fill="none"
-			stroke-linecap="round"
-			stroke-linejoin="round"
-			stroke-width="2"
-			viewBox="0 0 24 24"
-			stroke="currentColor"
-		>
-		<path d="M4 6h16M4 12h16M4 18h16"></path>
-		</svg>
-	</button> */}
-</div>
-<div class="hidden mobile-menu">
-	<ul class="display: none">
-
-		<li class="active"><a href="index.html" class="block text-sm px-2 py-4 text-white bg-pink-600 font-semibold">Home</a></li>
-		<li><a href="#services" class="block text-sm px-2 text-white py-4 transition duration-300">About</a></li>
-		<li><a href="#about" class="block text-sm px-2 text-white py-4transition duration-300">Blog</a></li>
-		<li><a href="#contact" class="block text-sm px-2 text-white  py-4 transition duration-300">Contact </a></li>
-	</ul>
-</div>
+          
 				</div>
 			</div>
 		</div>
@@ -82,7 +58,7 @@ function App() {
        </div>
     <div className="flex flex-col md:flex-row w-screen my-auto items-center mt-16 md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3" >
       <h1 className="text-4xl text-center text-pink-400">
-        Items for sale
+        New Arrival
       </h1>
     </div>
 
@@ -143,10 +119,9 @@ function App() {
     <p class="text-gray-700 text-base-sm">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
     </p>
-  
   </div>
   </div>
-  <div class="container  md:container md:mx-auto p-2rem h-150 flex w-90 items-center py-2 bg-blue-200">
+  <div class="container md:container md:mx-auto p-2rem h-150 flex w-90 items-center py-2 bg-blue-200">
 <div>
       <img class="h-50 w-50" src={Group} alt="Group 3.jpg"/></div>
       <div class="leading-tight">
@@ -166,44 +141,70 @@ Quisque a tellus ac erat rhoncus
     </div>
     <div class="p-5 gap-9 flex flex-wrap -mx-1 lg:-mx-4" >
     {/* first pic */}
-    <div class=" h-[250px] w-64 max-w-sm rounded overflow-hidden shadow-lg display: block">
-  <img class="h-30 w-30"src={Gret} alt="gret.jpg"/>
+    <div class="max-w-sm rounded overflow-hidden shadow-lg display: block">
+  <img class="h-[250px] w-full"src={Gret} alt="gret.jpg"/>
+  <p class="text-gray-700 text-base-sm">
+    Lorem ipsum     $250
+    </p>
   </div>
   {/* second pic */}
-  <div class=" h-[250px] w-64  max-w-sm rounded overflow-hidden shadow-lg display: block">
-  <img class="h-50 w-50"src={Guu} alt="guu.jpg"/>
+  <div class=" max-w-sm rounded overflow-hidden shadow-lg display: block">
+  <img class="h-[250px] w-full"src={Guu} alt="guu.jpg"/>
+  <p class="text-gray-700 text-base-sm">
+    Lorem ipsum     $250
+    </p>
+  
   </div>
-  {/* fifth pic */}
-  <div class="h-[250px] w-64  max-w-sm rounded overflow-hidden shadow-lg display: block">
-  <img class="h-50 w-50"src={Blue} alt="blue.jpg"/>
+  {/* third pic */}
+  <div class="max-w-sm rounded overflow-hidden shadow-lg display: block">
+  <img class="h-[250px] w-full"src={Blue} alt="blue.jpg"/>
+  <p class="text-gray-700 text-base-sm">
+    Lorem ipsum     $250
+    </p>
   </div>
-   {/* fifth pic */}
-   <div class="h-[250px] w-64  max-w-sm rounded overflow-hidden shadow-lg display: block">
-  <img class="h-50 w-50"src={Looo} alt="looo.jpg"/>
+   {/* forth pic */}
+   <div class="  max-w-sm rounded overflow-hidden shadow-lg display: block">
+  <img class="h-[250px] w-full"src={Looo} alt="looo.jpg"/>
+  <p class="text-gray-700 text-base-sm">
+    Lorem ipsum     $250
+    </p>
   </div>
 </div>
 <div class="p-5 gap-9 flex flex-wrap -mx-1 lg:-mx-4" >
     {/* first pic */}
-    <div class=" h-[250px] w-64 max-w-sm rounded overflow-hidden shadow-lg display: block">
-  <img class="h-30 w-30"src={Men} alt="men.jpg"/>
- 
+    <div class="max-w-sm rounded overflow-hidden shadow-lg display: block">
+  <img class="h-[250px] w-full"src={Gret} alt="gret.jpg"/>
+  <p class="text-gray-700 text-base-sm">
+    Lorem ipsum     $250
+    </p>
   </div>
   {/* second pic */}
-  <div class=" h-[250px] w-64  max-w-sm rounded overflow-hidden shadow-lg display: block">
-  <img class="h-50 w-50"src={Lonhu} alt="lonhu.jpg"/>
+  <div class=" max-w-sm rounded overflow-hidden shadow-lg display: block">
+  <img class="h-[250px] w-full"src={Guu} alt="guu.jpg"/>
+  <p class="text-gray-700 text-base-sm">
+    Lorem ipsum     $250
+    </p>
+  
   </div>
-  {/* fifth pic */}
-  <div class="h-[250px] w-64  max-w-sm rounded overflow-hidden shadow-lg display: block">
-  <img class="h-50 w-50"src={Yellow} alt="yellow.jpg"/>
+  {/* third pic */}
+  <div class="max-w-sm rounded overflow-hidden shadow-lg display: block">
+  <img class="h-[250px] w-full"src={Blue} alt="blue.jpg"/>
+  <p class="text-gray-700 text-base-sm">
+    Lorem ipsum     $250
+    </p>
   </div>
-   {/* fifth pic */}
-   <div class="h-[250px] w-64  max-w-sm rounded overflow-hidden shadow-lg display: block">
-  <img class="h-50 w-50"src={Shirt} alt="shirt.jpeg"/>
+   {/* forth pic */}
+   <div class="  max-w-sm rounded overflow-hidden shadow-lg display: block">
+  <img class="h-[250px] w-full"src={Looo} alt="looo.jpg"/>
+  <p class="text-gray-700 text-base-sm">
+    Lorem ipsum     $250
+    </p>
   </div>
-</div>
- 
   </div>
 
+
+
+    </div>
   </>
 
   );
