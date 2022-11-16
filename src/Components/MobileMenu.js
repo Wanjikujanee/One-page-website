@@ -6,19 +6,19 @@ function MobileMenu() {
             src="https://africaprime.com/wp-content/uploads/2020/04/ElonMusk.jpg"
             className="rounded-full w-8 h-8 cursor-pointer"
           />
-          <h6 className="ml-5 cursor-pointer">Elon Musk</h6>
+          <h6 className="ml-5 cursor-pointer"></h6>
         </div>
         <div className="mobile-nav-icon">
           <ImHome size={20} />
           <h4 className="ml-5">Home</h4>
         </div>
         <div className="mobile-nav-icon">
-          <HiUsers size={20} />
-          <h4 className="ml-5">Friends</h4>
+          <HiBlog size={20} />
+          <h4 className="ml-5">Blog</h4>
         </div>
         <div className="mobile-nav-icon">
-          <CgProfile size={20} />
-          <h4 className="ml-5">My Profile</h4>
+          <CgContact size={20} />
+          <h4 className="ml-5">Contact</h4>
         </div>
       </div>
     );

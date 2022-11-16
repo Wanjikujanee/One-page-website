@@ -9,6 +9,7 @@ import reportWebVitals from './reportWebVitals';
 // button.addEventListener('click', () => {
 //   menu.classList.toggle('hidden');
 // });
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
